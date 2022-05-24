@@ -41,10 +41,11 @@ function reverseWords(str) {
  function reverseWords(str) {
 
  //split the sentence into an array of words , loop all those word and split further , split each of word as 
- 
+
  letters , reverse each of letter , join letter and create a new word , join all those new words . 
     return str.split(' ').map(word => word.split('').reverse().join('')).join(' ')
  }
  
  */
+ 
  
