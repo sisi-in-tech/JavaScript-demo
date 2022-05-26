@@ -19,7 +19,7 @@ description :JavaScript
 .toUpperCase() 
 */
 
--- solution1 : 
+//  solution1 : 
 
 String.prototype.isUpperCase = function() {
     return this.toString() === this.toUpperCase() 
@@ -27,7 +27,7 @@ String.prototype.isUpperCase = function() {
 
 
 
--- solution2 : 
+//  solution2 : 
 
 String.prototype.isUpperCase = function() {
   return this.split('').every(char => char === char.toUpperCase())
