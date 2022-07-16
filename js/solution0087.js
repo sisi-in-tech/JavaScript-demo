@@ -16,7 +16,7 @@ function index(array, n){
    // if n is outside of the array or n is negative, return -1
     if (array.length <= n || 0 > n) {
       return -1;
-      // otherwise , return  N-th power of the element in the array with the index N.
+      // otherwise , return N-th power of the element in the array with the index N.
     } else {
       return Math.pow(array[n], n);
     }
@@ -31,4 +31,3 @@ for example: array = [1, 2, 3, 4] and N = 2, then the result is 3^2 == 9;
 
 
 
-  */
