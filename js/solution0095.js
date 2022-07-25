@@ -6,7 +6,6 @@ For example, if the parameters passed are (2, 6), the function should return [2,
 
 If you can, try writing it in only one line of code.
 
-
 */
 
 
