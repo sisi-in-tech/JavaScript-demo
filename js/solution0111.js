@@ -50,10 +50,6 @@ function highAndLow(numbers){
 
 */ 
 
-
-
-
-
 //JavaScript Solution2 : 
 function highAndLow(numbers){
     numbers = numbers.split(' ').map(Number);
