@@ -50,7 +50,7 @@ P R E P
            upperNum += 1
        }
       }
-// return result   
+// use tenary operator return result   
   return lowerNum >= upperNum ? s.toLowerCase() : s.toUpperCase() 
   }
 
