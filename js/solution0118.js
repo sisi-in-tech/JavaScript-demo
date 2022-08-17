@@ -31,6 +31,22 @@ function minMax(arr){
   }
 
 //JavaScript solution3 : 
+/*
+Function.prototype.apply()
+The apply() method calls the specified function with a given this value, and arguments provided as an array (or an array-like object).
+const numbers = [5, 6, 2, 3, 7];
+
+const max = Math.max.apply(Math,numbers);
+
+console.log(max);
+//expected output: 7
+
+const min = Math.min.apply(null, numbers);
+
+console.log(min);
+// expected output: 2
+
+*/
 function minMax(arr){
     return [Math.min.apply(Math, arr), Math.max.apply(Math, arr)];
   }
