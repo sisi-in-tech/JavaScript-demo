@@ -62,6 +62,7 @@ Given an in ordered array (nums) delete the duplicate num, after delete the dupl
 
 */ 
 
+ 
 var removeDuplicates = function(nums) {
     if(!nums.length) return 0;
     let i = 0;
