@@ -51,6 +51,9 @@ var longestCommonPrefix = function(strs) {
     return res
 };
 
+
+
+
 /* P R E P 
 1. Declare variable longestCommonPrefix , sign it as function with parameter strs as string in the array   . Declare the prefix as an empty string as variable res. 
 2. Return the Longest Common Prefix , Take the first string as a reference, it's common prefix , so all strings should directly have the first string as a common character, and then we find the longest common prefix . 
