@@ -6,8 +6,6 @@ Merge the two lists in a one sorted list. The list should be made by splicing to
 
 Return the head of the merged linked list.
 
- 
-
 Example 1:
 
 
@@ -66,3 +64,4 @@ This question test recrusion and list concept
   
   
   
+ 
